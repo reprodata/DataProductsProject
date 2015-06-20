@@ -35,10 +35,10 @@ shinyUI(
          h4('Based on previous analysis, we have selected a regression model using three major variables to predict MPG: transmission type, weight, and horse power.'),
          h4('To use this application, please enter these three variables on the left panel, then click the "Submit" botton when you are done.  It may take a few seconds to calculate after data is submitted'),
          h4('Navigate to "Results" tab (on the top) to view the corresponding prediction results.'),
-
-         p(strong(em("For more information, please visit:",a("http://rpubs.com/sl6004/shinydoc",href="http://rpubs.com/sl6004/shinydoc"))))     
-        
-		),
+         
+         p(strong(em("For more information, please visit:",a("http://rpubs.com/sw6004/DataProducts",href="http://rpubs.com/sw6004/DataProducts"))))     
+         
+        ),
         
         tabPanel("Results", 
                  

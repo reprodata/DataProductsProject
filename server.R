@@ -7,7 +7,6 @@
 
 library(shiny)
 
-
 MPG<-function(am,wt,hp) as.numeric(am)*2.08371-2.878575*wt-0.037479*hp+34.002875
 
 shinyServer(
